@@ -3,7 +3,7 @@ Easy access to your Git repositories
 
 
 ## Overview
-Easily do the most common Git commands for your repositories right in the menu bar
+Easily do the most common Git commands for your repositories right in the menubar
 ![Screenshot of the macOS app](Screenshot)
 
 ## Topics
