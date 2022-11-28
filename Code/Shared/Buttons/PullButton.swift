@@ -17,11 +17,13 @@ struct PullButton: View {
         Button("Pull") {
             let result = Shell.run("git pull", for: repository)
             if let result, result.contains("Already up to date.") {
-                Notifications.send("Successfully pulled", for: repository)
+                Notifications.send(String(localized: "Nothing to pull"), for: repository, andDisappear: false)
+            } else if let result, result.contains("file changed") || result.contains("files changed") {
+                Notifications.send(String(localized: "Successfully pulled"), for: repository)
             } else if let result {
-                Notifications.send("Error: " + result, for: repository, andDisappear: false)
+                Notifications.send(String(localized: "Error: ") + result, for: repository, andDisappear: false)
             } else {
-                Notifications.send("Error", for: repository, andDisappear: false)
+                Notifications.send(String(localized: "Error"), for: repository, andDisappear: false)
             }
             
         }

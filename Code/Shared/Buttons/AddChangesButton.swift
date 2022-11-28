@@ -17,9 +17,9 @@ struct AddChangesButton: View {
         Button("Add Changes") {
             let result = Shell.run("git add .", for: repository)
             if let result {
-                Notifications.send("Error: " + result, for: repository, andDisappear: false)
+                Notifications.send(String(localized: "Error: ") + result, for: repository, andDisappear: false)
             } else {
-                Notifications.send("Successfully added changes", for: repository)
+                Notifications.send(String(localized: "Successfully added changes"), for: repository)
             }
         }
     }

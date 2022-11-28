@@ -1,0 +1,136 @@
+/// Translations
+
+
+// App
+
+/* Button Title */
+"Pull" = "Pull";
+
+/* Button Title */
+"Add Changes" = "Add Changes";
+
+/* Button Title */
+"Reset Changes" = "Reset Changes";
+
+/* Button Title */
+"Commit..." = "Commit...";
+
+/* Textfield Title */
+"Repository:" = "Repository:";
+
+/* Textfield Title */
+"Message:" = "Message:";
+
+/* Textfield Placeholder */
+"Text" = "Text";
+
+/* Button Title */
+"Cancel" = "Cancel";
+
+/* Button Title */
+"Commit" = "Commit";
+
+/* Button Title */
+"Mark Version..." = "Mark Version...";
+
+/* Textfield Title */
+"Version:" = "Version:";
+
+/* Button Title */
+"Mark Version" = "Mark Version";
+
+/* Button Title */
+"Push" = "Push";
+
+/* Button Title */
+"Settings..." = "Settings...";
+
+/* Button Title */
+"Quit" = "Quit";
+
+
+/* Notification Title */
+"Successfully pulled" = "Successfully pulled";
+
+/* Notification Title */
+"Nothing to pull" = "Nothing to pull";
+
+/* Notification Title */
+"Successfully added changes" = "Successfully added changes";
+
+/* Notification Title */
+"Successfully reset changes" = "Successfully reset changes";
+
+/* Notification Title */
+"Nothing to reset" = "Nothing to reset";
+
+/* Notification Title */
+"Successfully committed" = "Successfully committed";
+
+/* Notification Title */
+"Nothing to commit" = "Nothing to commit";
+
+/* Notification Title */
+"Version successfully marked" = "Version successfully marked";
+
+/* Notification Title */
+"Version already marked" = "Version already marked";
+
+/* Notification Title */
+"Successfully pushed" = "Successfully pushed";
+
+/* Notification Title */
+"Nothing to push" = "Nothing to push";
+
+/* Notification Title */
+"Error" = "Error";
+
+/* Notification Title */
+"Error: " = "Error: ";
+
+
+/* Window Title */
+"Settings" = "Settings";
+
+/* Tab Title */
+"Login" = "Login";
+
+/* Toggle Title */
+"Launch this app automatically on login" = "Launch this app automatically on login";
+
+/* Tab Title */
+"Repositories" = "Repositories";
+
+/* Button Title/List Placeholder */
+"Add Section" = "Add Section";
+
+/* Button Title */
+"Delete Section" = "Delete Section";
+
+/* Button Title */
+"Rename Section" = "Rename Section";
+
+/* Textfield Placeholder */
+"Title" = "Title";
+
+/* Button Title */
+"Rename" = "Rename";
+
+/* List Placeholder */
+"Select Section" = "Select Section";
+
+/* Button Title */
+"Add Repository" = "Add Repository";
+
+/* Button Title */
+"Delete Repository" = "Delete Repository";
+
+/* Button Title */
+"Change..." = "Change...";
+
+/* Toggle Title */
+"Use versions" = "Use versions";
+
+/* Toggle Title */
+"Use versions by default for new repositories" = "Use versions by default for new repositories";
+

@@ -25,7 +25,7 @@ struct Notifications {
         
         Task {
             if isTemporary {
-                try? await Task.sleep(nanoseconds: 10_000_000_000)
+                try? await Task.sleep(nanoseconds: 5_000_000_000)
             } else {
                 try? await Task.sleep(nanoseconds: 240_000_000_000)
             }

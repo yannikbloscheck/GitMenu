@@ -88,7 +88,7 @@ struct SettingsRepositoryGroupsColumn: View {
                 Button {
                     isRenamingRepositoryGroup = true
                 } label: {
-                    Label("Edit Section", systemImage: "pencil.line")
+                    Label("Rename Section", systemImage: "pencil.line")
                     .padding(8)
                 }
                 .padding(.leading, 4)

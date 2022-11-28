@@ -1,0 +1,136 @@
+/// Translations
+
+
+// App
+
+/* Button Title */
+"Pull" = "Pullen";
+
+/* Button Title */
+"Add Changes" = "Änderungen hinzufügen";
+
+/* Button Title */
+"Reset Changes" = "Änderungen zurücksetzen";
+
+/* Button Title */
+"Commit..." = "Committen...";
+
+/* Textfield Title */
+"Repository:" = "Repository:";
+
+/* Textfield Title */
+"Message:" = "Nachricht:";
+
+/* Textfield Placeholder */
+"Text" = "Text";
+
+/* Button Title */
+"Cancel" = "Abbrechen";
+
+/* Button Title */
+"Commit" = "Committen";
+
+/* Button Title */
+"Mark Version..." = "Version markieren...";
+
+/* Textfield Title */
+"Version:" = "Version:";
+
+/* Button Title */
+"Mark Version" = "Version markieren";
+
+/* Button Title */
+"Push" = "Pushen";
+
+/* Button Title */
+"Settings..." = "Einstellungen...";
+
+/* Button Title */
+"Quit" = "Beenden";
+
+
+/* Notification Title */
+"Successfully pulled" = "Erfolgreich gepullt";
+
+/* Notification Title */
+"Nothing to pull" = "Nichts zum Pullen";
+
+/* Notification Title */
+"Successfully added changes" = "Erfolgreich Änderungen hinzugefügt";
+
+/* Notification Title */
+"Successfully reset changes" = "Erfolgreich Änderungen zurückgesetzt";
+
+/* Notification Title */
+"Nothing to reset" = "Nicht zum Zurücksetzen";
+
+/* Notification Title */
+"Successfully committed" = "Erfolgreich committet";
+
+/* Notification Title */
+"Nothing to commit" = "Nichts zum Committen";
+
+/* Notification Title */
+"Version successfully marked" = "Version erfolgreich markiert";
+
+/* Notification Title */
+"Version already marked" = "Version bereits markiert";
+
+/* Notification Title */
+"Successfully pushed" = "Erfolgreich gepusht";
+
+/* Notification Title */
+"Nothing to push" = "Nichts zum Pushen";
+
+/* Notification Title */
+"Error" = "Fehler";
+
+/* Notification Title */
+"Error: " = "Fehler: ";
+
+
+/* Window Title */
+"Settings" = "Einstellungen";
+
+/* Tab Title */
+"Login" = "Anmeldung";
+
+/* Toggle Title */
+"Launch this app automatically on login" = "Diese App automatisch nach der Anmeldung öffnen";
+
+/* Tab Title */
+"Repositories" = "Repositories";
+
+/* Button Title/List Placeholder */
+"Add Section" = "Rubrik hinzufügen";
+
+/* Button Title */
+"Delete Section" = "Rubrik löschen";
+
+/* Button Title */
+"Rename Section" = "Rubrik umbenennen";
+
+/* Textfield Placeholder */
+"Title" = "Titel";
+
+/* Button Title */
+"Rename" = "Umbenennen";
+
+/* List Placeholder */
+"Select Section" = "Rubrik auswählen";
+
+/* Button Title */
+"Add Repository" = "Repository hinzufügen";
+
+/* Button Title */
+"Delete Repository" = "Repository löschen";
+
+/* Button Title */
+"Change..." = "Ändern...";
+
+/* Toggle Title */
+"Use versions" = "Versionen benutzen";
+
+/* Toggle Title */
+"Use versions by default for new repositories" = "Versionen standardmäßig für neue Repositories benutzen";
+

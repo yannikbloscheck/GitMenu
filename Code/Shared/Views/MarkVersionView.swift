@@ -68,11 +68,11 @@ struct MarkVersionView: View {
         if let repository, !text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
             let result = Shell.run("git tag -s -a v\(text) -m \"Version \(text.replacingOccurrences(of: "\\", with: "\\\\").replacingOccurrences(of: "\"", with: "\\\""))\"", for: repository)
             if let result, result.contains("already exists") {
-                Notifications.send("Version already marked", for: repository)
+                Notifications.send(String(localized: "Version already marked"), for: repository)
             } else if let result {
-                Notifications.send("Error: " + result, for: repository, andDisappear: false)
+                Notifications.send(String(localized: "Error: ") + result, for: repository, andDisappear: false)
             } else {
-                Notifications.send("Version successfully marked", for: repository)
+                Notifications.send(String(localized: "Version successfully marked"), for: repository)
             }
             
             cancel()
